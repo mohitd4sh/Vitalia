@@ -43,9 +43,6 @@ The Vite development server proxies `/api` requests to `http://localhost:5000`. 
 
 The public About Vitalia page is the webapp's landing page at `/` and is also available at `/about`. Visitors can sign in or create an account from that page; signed-in users can open their role-specific workspace from its navigation.
 
-See [PROJECT-FLOW.md](./PROJECT-FLOW.md) for the visitor, authentication, booking, role, and API-to-database flows.
-For a visual, print-friendly Word version, see [PROJECT-FLOW.docx](./PROJECT-FLOW.docx).
-
 ## Admin and staff access
 
 Register a normal account first. To grant the initial administrator access, update that account's role directly in MongoDB using the exact email used during registration:
