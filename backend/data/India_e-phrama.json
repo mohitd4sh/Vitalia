@@ -1,0 +1,3267 @@
+{
+  "country": "India",
+  "currency": "INR",
+  "recordCount": 113,
+  "dataStatus": "expanded_retailer_listing_sample",
+  "lastPrepared": "2026-11-04",
+  "fieldNotes": {
+    "price": "The price.min and price.max values are the displayed selling price for the stated pack, not a nationwide fixed price. price.mrp is the displayed MRP. Prices and availability can vary by PIN code and date.",
+    "brand": "Retailer-listed product/brand name.",
+    "strength": "If a retailer category listing does not expose the ingredient or numeric strength, the field explicitly says it was not stated rather than guessing.",
+    "requiresPrescription": "Boolean reflects whether an Rx marker was visible in the captured retailer listing. Absence of an Rx badge is not a legal determination that a medicine is OTC; verify the product page and applicable Indian rules.",
+    "source": "Each product includes retailer and category-page source. Apollo OTC category pages were used for the newly added records; Netmeds was used for some original records."
+  },
+  "safetyNotice": "This catalogue combines medicine, supplement, traditional product, and some health/personal-care listings from Indian pharmacy websites. It is a product-data reference, not medical advice. Do not use it to decide treatment. Prescription classification, composition, strength, and suitability must be verified from the live product page and pack before use.",
+  "medicines": [
+    {
+      "name": "Amat Tablet",
+      "brand": [
+        "Amat"
+      ],
+      "strength": [
+        "Amlodipine 5 mg + Atenolol 50 mg"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Antihypertensive",
+      "description": "Combination medicine listed for hypertension.",
+      "price": {
+        "min": 52.3,
+        "max": 52.3,
+        "mrp": 61.5,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/shop-by-category/pharma",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx label shown in retailer listing"
+      }
+    },
+    {
+      "name": "Amlip-5 Tablet",
+      "brand": [
+        "Amlip-5"
+      ],
+      "strength": [
+        "Amlodipine 5 mg"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Antihypertensive / Calcium channel blocker",
+      "description": "Used in the management of high blood pressure.",
+      "price": {
+        "min": 17.2,
+        "max": 17.2,
+        "mrp": 26.5,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/shop-by-category/pharma",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx label shown in retailer listing"
+      }
+    },
+    {
+      "name": "Amlip-2.5 Tablet",
+      "brand": [
+        "Amlip-2.5"
+      ],
+      "strength": [
+        "Amlodipine 2.5 mg"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Antihypertensive / Calcium channel blocker",
+      "description": "Used in the management of high blood pressure.",
+      "price": {
+        "min": 12.7,
+        "max": 12.7,
+        "mrp": 19.0,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/shop-by-category/pharma",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx label shown in retailer listing"
+      }
+    },
+    {
+      "name": "Biozobid Tablet",
+      "brand": [
+        "Biozobid"
+      ],
+      "strength": [
+        "Diclofenac 50 mg + Serratiopeptidase 10 mg"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Analgesic / Anti-inflammatory",
+      "description": "Listed for pain, inflammation and fever.",
+      "price": {
+        "min": 111.3,
+        "max": 111.3,
+        "mrp": 185.5,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/shop-by-category/pharma",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx label shown in retailer listing"
+      }
+    },
+    {
+      "name": "Cilogard 5 mg Tablet",
+      "brand": [
+        "Cilogard"
+      ],
+      "strength": [
+        "Cilnidipine 5 mg"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Antihypertensive / Calcium channel blocker",
+      "description": "Used in the management of high blood pressure.",
+      "price": {
+        "min": 41.9,
+        "max": 41.9,
+        "mrp": 46.5,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/shop-by-category/pharma",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx label shown in retailer listing"
+      }
+    },
+    {
+      "name": "Cipcal-500 Tablet",
+      "brand": [
+        "Cipcal-500"
+      ],
+      "strength": [
+        "Calcium 500 mg + Vitamin D3 250 IU"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Calcium / Vitamin supplement",
+      "description": "Calcium and vitamin D supplement for bone health.",
+      "price": {
+        "min": 86.0,
+        "max": 86.0,
+        "mrp": 107.5,
+        "currency": "INR",
+        "packSize": 15
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/shop-by-category/pharma",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx label shown in the captured retailer listing; confirm before dispensing"
+      }
+    },
+    {
+      "name": "Cosart-25 Tablet",
+      "brand": [
+        "Cosart-25"
+      ],
+      "strength": [
+        "Losartan 25 mg"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Antihypertensive / Angiotensin receptor blocker",
+      "description": "Used in the management of high blood pressure.",
+      "price": {
+        "min": 34.2,
+        "max": 34.2,
+        "mrp": 38.0,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/shop-by-category/pharma",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx label shown in retailer listing"
+      }
+    },
+    {
+      "name": "Cosart-50 Tablet",
+      "brand": [
+        "Cosart-50"
+      ],
+      "strength": [
+        "Losartan 50 mg"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Antihypertensive / Angiotensin receptor blocker",
+      "description": "Used in the management of high blood pressure.",
+      "price": {
+        "min": 54.0,
+        "max": 54.0,
+        "mrp": 60.0,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/shop-by-category/pharma",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx label shown in retailer listing"
+      }
+    },
+    {
+      "name": "Floxip 500 mg Tablet",
+      "brand": [
+        "Floxip"
+      ],
+      "strength": [
+        "Ciprofloxacin 500 mg"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Antibiotic / Fluoroquinolone",
+      "description": "Prescription antibiotic listed for bacterial infections.",
+      "price": {
+        "min": 32.9,
+        "max": 32.9,
+        "mrp": 44.5,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/shop-by-category/pharma",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx label shown in retailer listing"
+      }
+    },
+    {
+      "name": "Floxip TZ Tablet",
+      "brand": [
+        "Floxip"
+      ],
+      "strength": [
+        "Ciprofloxacin 500 mg + Tinidazole 600 mg"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Antibacterial / Antiprotozoal combination",
+      "description": "Combination anti-infective listed by the pharmacy.",
+      "price": {
+        "min": 69.8,
+        "max": 69.8,
+        "mrp": 77.5,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/shop-by-category/pharma",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx label shown in retailer listing"
+      }
+    },
+    {
+      "name": "Lipvas 20 Tablet",
+      "brand": [
+        "Lipvas"
+      ],
+      "strength": [
+        "Atorvastatin 20 mg"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Lipid-lowering agent / Statin",
+      "description": "Used to manage high cholesterol.",
+      "price": {
+        "min": 87.1,
+        "max": 87.1,
+        "mrp": 134.0,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/shop-by-category/pharma",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx label shown in retailer listing"
+      }
+    },
+    {
+      "name": "Lipvas 40 Tablet",
+      "brand": [
+        "Lipvas"
+      ],
+      "strength": [
+        "Atorvastatin 40 mg"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Lipid-lowering agent / Statin",
+      "description": "Used to manage high cholesterol.",
+      "price": {
+        "min": 133.9,
+        "max": 133.9,
+        "mrp": 206.0,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/shop-by-category/pharma",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx label shown in retailer listing"
+      }
+    },
+    {
+      "name": "Nicoflox 200 mg Tablet",
+      "brand": [
+        "Nicoflox"
+      ],
+      "strength": [
+        "Ofloxacin 200 mg"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Antibiotic / Fluoroquinolone",
+      "description": "Prescription antibiotic listed for bacterial infections.",
+      "price": {
+        "min": 62.4,
+        "max": 62.4,
+        "mrp": 113.5,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/shop-by-category/pharma",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx label shown in retailer listing"
+      }
+    },
+    {
+      "name": "Nicopenta 40 Tablet",
+      "brand": [
+        "Nicopenta"
+      ],
+      "strength": [
+        "Pantoprazole 40 mg"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Proton pump inhibitor / Acid-reducing agent",
+      "description": "Used for acid-related conditions such as reflux.",
+      "price": {
+        "min": 84.5,
+        "max": 84.5,
+        "mrp": 156.5,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/shop-by-category/pharma",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx label shown in retailer listing"
+      }
+    },
+    {
+      "name": "Malidens 650 mg Tablet",
+      "brand": [
+        "Malidens"
+      ],
+      "strength": [
+        "Paracetamol 650 mg"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Analgesic / Antipyretic",
+      "description": "Used for relief of pain and fever.",
+      "price": {
+        "min": 13.7,
+        "max": 13.7,
+        "mrp": 21.0,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/shop-by-category/pharma",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx label shown in the captured retailer listing; confirm before dispensing"
+      }
+    },
+    {
+      "name": "Megamox CV 375 mg Tablet",
+      "brand": [
+        "Megamox"
+      ],
+      "strength": [
+        "Amoxicillin 250 mg + Clavulanic acid 125 mg"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Antibiotic / Penicillin combination",
+      "description": "Prescription antibiotic combination for bacterial infections.",
+      "price": {
+        "min": 148.4,
+        "max": 148.4,
+        "mrp": 265.0,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/shop-by-category/pharma",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx label shown in retailer listing"
+      }
+    },
+    {
+      "name": "Roko 2 mg Capsule",
+      "brand": [
+        "Roko"
+      ],
+      "strength": [
+        "Loperamide 2 mg"
+      ],
+      "form": [
+        "Capsule"
+      ],
+      "category": "Antidiarrhoeal",
+      "description": "Used for symptomatic control of diarrhoea.",
+      "price": {
+        "min": 21.6,
+        "max": 21.6,
+        "mrp": 24.0,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/shop-by-category/pharma",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx label shown in the captured retailer listing; confirm before dispensing"
+      }
+    },
+    {
+      "name": "Rzole DSR Capsule",
+      "brand": [
+        "Rzole"
+      ],
+      "strength": [
+        "Rabeprazole 20 mg + Domperidone 30 mg"
+      ],
+      "form": [
+        "Capsule"
+      ],
+      "category": "Acid-reducing / Prokinetic combination",
+      "description": "Listed for gastritis and acid reflux.",
+      "price": {
+        "min": 127.6,
+        "max": 127.6,
+        "mrp": 159.5,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/shop-by-category/pharma",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx label shown in retailer listing"
+      }
+    },
+    {
+      "name": "Suhagra-25 Tablet",
+      "brand": [
+        "Suhagra-25"
+      ],
+      "strength": [
+        "Sildenafil 25 mg"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Phosphodiesterase-5 inhibitor",
+      "description": "Prescription medicine listed for erectile dysfunction.",
+      "price": {
+        "min": 77.9,
+        "max": 77.9,
+        "mrp": 132.0,
+        "currency": "INR",
+        "packSize": 4
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/shop-by-category/pharma",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx label shown in retailer listing"
+      }
+    },
+    {
+      "name": "Safepodox-200 Tablet",
+      "brand": [
+        "Safepodox-200"
+      ],
+      "strength": [
+        "Cefpodoxime proxetil 200 mg"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Antibiotic / Cephalosporin",
+      "description": "Prescription antibiotic listed for bacterial infections.",
+      "price": {
+        "min": 140.7,
+        "max": 140.7,
+        "mrp": 265.5,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/shop-by-category/pharma",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx label shown in retailer listing"
+      }
+    },
+    {
+      "name": "Amoxyclav 625 Tablet",
+      "brand": [
+        "Amoxyclav"
+      ],
+      "strength": [
+        "Amoxicillin 500 mg + Clavulanic acid 125 mg"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Antibiotic / Penicillin combination",
+      "description": "Prescription antibiotic combination for bacterial infections.",
+      "price": {
+        "min": 145.4,
+        "max": 145.4,
+        "mrp": 196.5,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/shop-by-category/pharma",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx label shown in retailer listing"
+      }
+    },
+    {
+      "name": "Lunabet 1% Cream",
+      "brand": [
+        "Lunabet"
+      ],
+      "strength": [
+        "Luliconazole 1% w/w"
+      ],
+      "form": [
+        "Cream"
+      ],
+      "category": "Topical antifungal",
+      "description": "Topical antifungal listed for fungal skin infections.",
+      "price": {
+        "min": 90.0,
+        "max": 90.0,
+        "mrp": 112.5,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/shop-by-category/pharma",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx label shown in retailer listing"
+      }
+    },
+    {
+      "name": "Tossex XP Mango Syrup",
+      "brand": [
+        "Tossex"
+      ],
+      "strength": [
+        "Ambroxol 15 mg + Guaifenesin 50 mg + Terbutaline 1.25 mg"
+      ],
+      "form": [
+        "Syrup"
+      ],
+      "category": "Cough / Expectorant combination",
+      "description": "Combination cough medicine listed for cold and cough.",
+      "price": {
+        "min": 75.0,
+        "max": 75.0,
+        "mrp": 100.0,
+        "currency": "INR",
+        "packSize": 100
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/shop-by-category/pharma",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx label shown in retailer listing"
+      }
+    },
+    {
+      "name": "Cefix 200 mg Tablet",
+      "brand": [
+        "Cefix"
+      ],
+      "strength": [
+        "Cefixime 200 mg"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Antibiotic / Cephalosporin",
+      "description": "Prescription antibiotic listing for bacterial infections.",
+      "price": {
+        "min": 44.14,
+        "max": 44.14,
+        "mrp": 105.1,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Netmeds",
+        "sourceUrl": "https://www.netmeds.com/products",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx label shown in retailer listing"
+      }
+    },
+    {
+      "name": "Electral Powder",
+      "brand": [
+        "Electral"
+      ],
+      "strength": [
+        "Oral rehydration salts (ORS)"
+      ],
+      "form": [
+        "Powder for oral solution"
+      ],
+      "category": "Oral rehydration salts",
+      "description": "ORS powder used to replace fluids and electrolytes.",
+      "price": {
+        "min": 19.72,
+        "max": 19.72,
+        "mrp": 23.2,
+        "currency": "INR",
+        "packSize": 21.8
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Netmeds",
+        "sourceUrl": "https://www.netmeds.com/products",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx label shown in the captured retailer listing; confirm before dispensing"
+      }
+    },
+    {
+      "name": "Cofsils Ginger Lemon Lozenges",
+      "brand": [
+        "Cofsils"
+      ],
+      "strength": [
+        "Lozenge formulation; strength not stated in listing"
+      ],
+      "form": [
+        "Lozenge"
+      ],
+      "category": "Throat lozenge",
+      "description": "Lozenge product listed for sore-throat relief.",
+      "price": {
+        "min": 26.72,
+        "max": 26.72,
+        "mrp": 35.62,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Netmeds",
+        "sourceUrl": "https://www.netmeds.com/products",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx label shown in the captured retailer listing; confirm before dispensing"
+      }
+    },
+    {
+      "name": "Volini Gel",
+      "brand": [
+        "Volini"
+      ],
+      "strength": [
+        "Diclofenac-based topical gel; strength not stated in listing"
+      ],
+      "form": [
+        "Gel"
+      ],
+      "category": "Topical analgesic",
+      "description": "Topical gel listed for pain relief.",
+      "price": {
+        "min": 282.69,
+        "max": 282.69,
+        "mrp": 349.0,
+        "currency": "INR",
+        "packSize": 100
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Netmeds",
+        "sourceUrl": "https://www.netmeds.com/products",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx label shown in the captured retailer listing; confirm before dispensing"
+      }
+    },
+    {
+      "name": "Apollo Pharmacy Povidone Iodine 2% W/V Gargle, 100 ml",
+      "brand": [
+        "Apollo Pharmacy"
+      ],
+      "strength": [
+        "Povidone iodine 2% w/v"
+      ],
+      "form": [
+        "Liquid gargle"
+      ],
+      "category": "Antiseptic / Oral care",
+      "description": "Antiseptic gargle product listed for sore throat, mouth ulcers and oral hygiene.",
+      "price": {
+        "min": 99,
+        "max": 99,
+        "mrp": 110,
+        "currency": "INR",
+        "packSize": 100
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Apollo Life Cough Syrup, 100 ml",
+      "brand": [
+        "Apollo Life"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Syrup"
+      ],
+      "category": "Cough and cold",
+      "description": "Cough syrup listed in Apollo Pharmacy's OTC catalogue; composition should be checked on the pack.",
+      "price": {
+        "min": 84.2,
+        "max": 84.2,
+        "mrp": 93.5,
+        "currency": "INR",
+        "packSize": 100
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Apollo Pharmacy Isabgol Husk Orange Flavour Powder Bowel XP, 100 gm",
+      "brand": [
+        "Apollo Pharmacy"
+      ],
+      "strength": [
+        "Psyllium husk; exact fibre content not stated"
+      ],
+      "form": [
+        "Powder"
+      ],
+      "category": "Digestive health / Fibre supplement",
+      "description": "Orange-flavoured psyllium husk powder listed for constipation and dietary fibre.",
+      "price": {
+        "min": 144,
+        "max": 144,
+        "mrp": 160,
+        "currency": "INR",
+        "packSize": 100
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Apollo Pharmacy Nasochoice Adult Nasal Spray, 10 ml",
+      "brand": [
+        "Apollo Pharmacy"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Nasal spray"
+      ],
+      "category": "Nasal care",
+      "description": "Adult nasal spray listed in the OTC category; check the pack for active ingredients.",
+      "price": {
+        "min": 47.5,
+        "max": 47.5,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Apollo Life Cough Drops Lozenges, 1 Count",
+      "brand": [
+        "Apollo Life"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Lozenge"
+      ],
+      "category": "Cough and cold / Throat care",
+      "description": "Cough-drop lozenge listed for cough and cold.",
+      "price": {
+        "min": 1,
+        "max": 1,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 1
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Apollo Pharmacy Sorepils Orange Flavour Lozenges, 25 Count",
+      "brand": [
+        "Apollo Pharmacy"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Lozenge"
+      ],
+      "category": "Throat care",
+      "description": "Orange-flavoured throat lozenges listed in the OTC category.",
+      "price": {
+        "min": 50,
+        "max": 50,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 25
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Shelcal Pro Sugar Free Lemon, Orange & Mixed Berries For Adults, 30 Gummies",
+      "brand": [
+        "Shelcal"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Gummies"
+      ],
+      "category": "Calcium / Nutritional supplement",
+      "description": "Sugar-free adult supplement gummies listed by Apollo Pharmacy; verify nutrient composition on pack.",
+      "price": {
+        "min": 489,
+        "max": 489,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 30
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Doctor's Choice Liquid Paraffin Heavy IP, 100 ml",
+      "brand": [
+        "Doctor's Choice"
+      ],
+      "strength": [
+        "Liquid paraffin IP; concentration not stated"
+      ],
+      "form": [
+        "Liquid"
+      ],
+      "category": "Laxative / Digestive care",
+      "description": "Liquid paraffin product listed in the OTC category; use according to the product label and professional advice.",
+      "price": {
+        "min": 160,
+        "max": 160,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 100
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Apollo Life Inhaler, 1 ml",
+      "brand": [
+        "Apollo Life"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Inhaler"
+      ],
+      "category": "Nasal / Respiratory care",
+      "description": "Small inhaler product listed by Apollo Pharmacy; active ingredients are not specified in the category listing.",
+      "price": {
+        "min": 46.5,
+        "max": 46.5,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 1
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Apollo Pharmacy Povidone-Iodine Ointment USP, 20 gm",
+      "brand": [
+        "Apollo Pharmacy"
+      ],
+      "strength": [
+        "Povidone-iodine; strength not stated in listing"
+      ],
+      "form": [
+        "Ointment"
+      ],
+      "category": "Antiseptic / Wound care",
+      "description": "Topical antiseptic ointment listed in Apollo Pharmacy's OTC category.",
+      "price": {
+        "min": 35.5,
+        "max": 35.5,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 20
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Doctor's Choice CHG Hand 'N' Skin Disinfectant Liquid, 100 ml",
+      "brand": [
+        "Doctor's Choice"
+      ],
+      "strength": [
+        "Chlorhexidine gluconate; strength not stated in listing"
+      ],
+      "form": [
+        "Liquid"
+      ],
+      "category": "Antiseptic / Disinfectant",
+      "description": "Hand and skin disinfectant liquid listed in the OTC category.",
+      "price": {
+        "min": 106,
+        "max": 106,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 100
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Apollo Pharmacy Ayurvedic Sorepils, 1 Count",
+      "brand": [
+        "Apollo Pharmacy"
+      ],
+      "strength": [
+        "Herbal composition not stated"
+      ],
+      "form": [
+        "Lozenge"
+      ],
+      "category": "Ayurvedic / Throat care",
+      "description": "Ayurvedic sore-throat lozenge listed by Apollo Pharmacy.",
+      "price": {
+        "min": 1.5,
+        "max": 1.5,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 1
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Imunocin, 10 Tablets",
+      "brand": [
+        "Imunocin"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Nutritional supplement / Immunity support",
+      "description": "Tablet product listed in the pharmacy OTC catalogue; composition requires pack verification.",
+      "price": {
+        "min": 83,
+        "max": 83,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Xerom Gargle Salt",
+      "brand": [
+        "Xerom"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Powder"
+      ],
+      "category": "Oral care / Gargle",
+      "description": "Gargle salt product listed by Apollo Pharmacy; pack size and composition should be verified.",
+      "price": {
+        "min": 139.1,
+        "max": 139.1,
+        "mrp": 154.5,
+        "currency": "INR",
+        "packSize": null
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Oro T Oral Liquid, 100 ml",
+      "brand": [
+        "Oro T"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Oral liquid"
+      ],
+      "category": "Oral care",
+      "description": "Oral liquid product listed in the pharmacy catalogue; verify exact ingredients on pack.",
+      "price": {
+        "min": 100,
+        "max": 100,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 100
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "K Fil+ Collagen Particles 5 ml",
+      "brand": [
+        "K Fil+"
+      ],
+      "strength": [
+        "Collagen; exact type/concentration not stated"
+      ],
+      "form": [
+        "Particles"
+      ],
+      "category": "Nutritional / Specialty supplement",
+      "description": "Collagen particle product listed by Apollo Pharmacy; composition and intended use should be checked on pack.",
+      "price": {
+        "min": 511,
+        "max": 511,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 5
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Charak Kofol Gargle 100 ml",
+      "brand": [
+        "Charak"
+      ],
+      "strength": [
+        "Herbal composition not stated in listing"
+      ],
+      "form": [
+        "Gargle"
+      ],
+      "category": "Ayurvedic / Throat care",
+      "description": "Herbal gargle product listed by Apollo Pharmacy.",
+      "price": {
+        "min": 135,
+        "max": 135,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 100
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Apee Oil 30 ml",
+      "brand": [
+        "Apee"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Oil"
+      ],
+      "category": "Topical / Personal care",
+      "description": "Oil product listed in the pharmacy catalogue; exact formulation is not shown in the category listing.",
+      "price": {
+        "min": 95,
+        "max": 95,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 30
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Takzema, 30 Tablets",
+      "brand": [
+        "Takzema"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Medicine / Dermatology (verify)",
+      "description": "Tablet product listed in Apollo Pharmacy's OTC category; indication and ingredients require product-page verification.",
+      "price": {
+        "min": 147,
+        "max": 147,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 30
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Dermal Lotion, 30 ml",
+      "brand": [
+        "Dermal"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Lotion"
+      ],
+      "category": "Dermatology / Skin care",
+      "description": "Topical lotion listed in the pharmacy catalogue; active ingredients are not shown in the listing.",
+      "price": {
+        "min": 73,
+        "max": 73,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 30
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Orkid 4 Plus Cream, 15 gm",
+      "brand": [
+        "Orkid"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Cream"
+      ],
+      "category": "Dermatology / Topical medicine",
+      "description": "Cream product marked Rx in the retailer listing; use only with an appropriate prescription.",
+      "price": {
+        "min": 107,
+        "max": 107,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 15
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx marker shown on retailer listing",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Apollo Pharmacy Parachoice 500 mg, 10 Tablets",
+      "brand": [
+        "Apollo Pharmacy"
+      ],
+      "strength": [
+        "Paracetamol 500 mg (product name indicates strength; verify pack composition)"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Analgesic / Antipyretic",
+      "description": "Parachoice 500 mg tablet listing; check pack for full composition and directions.",
+      "price": {
+        "min": 9,
+        "max": 9,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Lolyvative Cream 30 gm",
+      "brand": [
+        "Lolyvative"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Cream"
+      ],
+      "category": "Dermatology / Topical medicine",
+      "description": "Cream listed for fungal infections and marked Rx in the retailer listing.",
+      "price": {
+        "min": 285,
+        "max": 285,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 30
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx marker shown on retailer listing",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Ludid Cream 10 gm",
+      "brand": [
+        "Ludid"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Cream"
+      ],
+      "category": "Dermatology / Topical medicine",
+      "description": "Cream product marked Rx in the retailer listing; verify active ingredient and strength on pack.",
+      "price": {
+        "min": 101.3,
+        "max": 101.3,
+        "mrp": 112.5,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx marker shown on retailer listing",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Supergin Fast Pain Relief Spray, 50ml",
+      "brand": [
+        "Supergin"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Spray"
+      ],
+      "category": "Pain relief / Topical",
+      "description": "Topical pain-relief spray listed by Apollo Pharmacy.",
+      "price": {
+        "min": 154.5,
+        "max": 154.5,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 50
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=2",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "AquaArg Sugar Free Orange Sachet 6 gm",
+      "brand": [
+        "AquaArg"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Granules / Sachet"
+      ],
+      "category": "Hydration / Electrolyte supplement",
+      "description": "Sugar-free orange-flavoured sachet listed in the OTC catalogue; verify electrolyte composition on pack.",
+      "price": {
+        "min": 45,
+        "max": 45,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 6
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=2",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Flexiwak Gel 30 gm",
+      "brand": [
+        "Flexiwak"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Gel"
+      ],
+      "category": "Pain relief / Topical",
+      "description": "Topical gel listed by Apollo Pharmacy; active ingredients are not provided in the category snippet.",
+      "price": {
+        "min": 110,
+        "max": 110,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 30
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=2",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Neobrac Cream, 20 gm",
+      "brand": [
+        "Neobrac"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Cream"
+      ],
+      "category": "Dermatology / Topical medicine",
+      "description": "Cream listed for fungal and bacterial skin infections; verify ingredients and prescription status on product page.",
+      "price": {
+        "min": 72,
+        "max": 72,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 20
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=2",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Panduo MPS Sugar Free Mint Suspension 200 ml",
+      "brand": [
+        "Panduo"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Oral suspension"
+      ],
+      "category": "Antacid / Digestive care",
+      "description": "Sugar-free mint oral suspension listed in Apollo Pharmacy's catalogue.",
+      "price": {
+        "min": 129,
+        "max": 129,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 200
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=2",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Plus Vit Capsule 10's",
+      "brand": [
+        "Plus Vit"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Capsule"
+      ],
+      "category": "Vitamin / Nutritional supplement",
+      "description": "Vitamin supplement capsule listing; nutrient composition should be checked on pack.",
+      "price": {
+        "min": 74,
+        "max": 74,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=2",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Clobirex S Ointment 30 gm",
+      "brand": [
+        "Clobirex S"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Ointment"
+      ],
+      "category": "Dermatology / Topical medicine",
+      "description": "Ointment marked Rx in the retailer listing and associated with eczema and psoriasis.",
+      "price": {
+        "min": 240,
+        "max": 240,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 30
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=2",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx marker shown on retailer listing",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "E-Wart Solution 15 ml",
+      "brand": [
+        "E-Wart"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Solution"
+      ],
+      "category": "Dermatology / Wart treatment",
+      "description": "Topical solution listed for warts, callus and corns; check product label before use.",
+      "price": {
+        "min": 238,
+        "max": 238,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 15
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=2",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Omkar Adulsa Compound Syrup, 1 Litre",
+      "brand": [
+        "Omkar"
+      ],
+      "strength": [
+        "Adulsa-based herbal composition; exact ingredients not stated"
+      ],
+      "form": [
+        "Syrup"
+      ],
+      "category": "Ayurvedic / Cough and cold",
+      "description": "Herbal compound syrup listed by Apollo Pharmacy; verify full ingredient list on pack.",
+      "price": {
+        "min": 660,
+        "max": 660,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 1000
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=2",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Envolax Syrup, 200 ml",
+      "brand": [
+        "Envolax"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Syrup"
+      ],
+      "category": "Digestive / Laxative (verify)",
+      "description": "Syrup marked Rx in the retailer listing; composition and use require product-page verification.",
+      "price": {
+        "min": 160,
+        "max": 160,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 200
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=2",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx marker shown on retailer listing",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Suppol Oral Suspension, 60 ml",
+      "brand": [
+        "Suppol"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Oral suspension"
+      ],
+      "category": "Medicine / Oral suspension",
+      "description": "Oral suspension listed by Apollo Pharmacy; active ingredients are not shown in the category listing.",
+      "price": {
+        "min": 42.5,
+        "max": 42.5,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 60
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=2",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "IT LEO 100MG CAPSULE",
+      "brand": [
+        "IT LEO"
+      ],
+      "strength": [
+        "100 mg (ingredient not stated in listing)"
+      ],
+      "form": [
+        "Capsule"
+      ],
+      "category": "Medicine / Capsule",
+      "description": "100 mg capsule listed by Apollo Pharmacy; the active ingredient needs verification.",
+      "price": {
+        "min": 150,
+        "max": 150,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 1
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=2",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "ITRAJET-200 CAPSULES",
+      "brand": [
+        "Itrajet"
+      ],
+      "strength": [
+        "200 mg (ingredient not stated in listing)"
+      ],
+      "form": [
+        "Capsule"
+      ],
+      "category": "Antifungal / Medicine (verify)",
+      "description": "200 mg capsule listed by Apollo Pharmacy; verify ingredient and prescription status on product page.",
+      "price": {
+        "min": 82.5,
+        "max": 82.5,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 200
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=2",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "OF-M SYP 60 ML",
+      "brand": [
+        "OF-M"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Syrup"
+      ],
+      "category": "Medicine / Syrup",
+      "description": "Syrup listed by Apollo Pharmacy; exact composition is not shown in the category listing.",
+      "price": {
+        "min": 65.5,
+        "max": 65.5,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 60
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=2",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "C-HOPE 200MG CAPSUE",
+      "brand": [
+        "C-Hope"
+      ],
+      "strength": [
+        "200 mg (ingredient not stated in listing)"
+      ],
+      "form": [
+        "Capsule"
+      ],
+      "category": "Medicine / Capsule",
+      "description": "200 mg capsule listing; confirm the ingredient and pack size on the product page.",
+      "price": {
+        "min": 408,
+        "max": 408,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 1
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=2",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Swizcal 60k, 4 Capsules",
+      "brand": [
+        "Swizcal"
+      ],
+      "strength": [
+        "Vitamin D3 60,000 IU (brand presentation suggests strength; verify pack)"
+      ],
+      "form": [
+        "Capsule"
+      ],
+      "category": "Vitamin D / Supplement",
+      "description": "High-strength vitamin D capsule product listing; confirm exact composition and use with a clinician.",
+      "price": {
+        "min": 305,
+        "max": 305,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 4
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=2",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Imki Syrup, 100 ml",
+      "brand": [
+        "Imki"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Syrup"
+      ],
+      "category": "Medicine / Syrup",
+      "description": "Syrup marked Rx in the retailer listing; active ingredients require product-page verification.",
+      "price": {
+        "min": 284.5,
+        "max": 284.5,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 100
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=2",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx marker shown on retailer listing",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "MALBET CAPSULE",
+      "brand": [
+        "Malbet"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Capsule"
+      ],
+      "category": "Medicine / Capsule",
+      "description": "Capsule listed by Apollo Pharmacy; ingredient, strength and pack count are not stated in the listing snippet.",
+      "price": {
+        "min": 70,
+        "max": 70,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 1
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=2",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Seracan-100, 10 Capsules",
+      "brand": [
+        "Seracan"
+      ],
+      "strength": [
+        "100 mg (ingredient not stated in listing)"
+      ],
+      "form": [
+        "Capsule"
+      ],
+      "category": "Medicine / Capsule",
+      "description": "100 mg capsule product listing; active ingredient should be confirmed on product page.",
+      "price": {
+        "min": 160,
+        "max": 160,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=2",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Mefiscope Ds Mango Flavour Suspension, 60 ml",
+      "brand": [
+        "Mefiscope"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Oral suspension"
+      ],
+      "category": "Analgesic / Antipyretic (verify)",
+      "description": "Mango-flavoured suspension listed by Apollo Pharmacy; verify ingredients and age-specific directions.",
+      "price": {
+        "min": 73,
+        "max": 73,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 60
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=2",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "D GROW 4G CAPSULE",
+      "brand": [
+        "D Grow"
+      ],
+      "strength": [
+        "4 g (ingredient not stated in listing)"
+      ],
+      "form": [
+        "Capsule"
+      ],
+      "category": "Nutritional supplement (verify)",
+      "description": "Capsule product listed by Apollo Pharmacy; composition is not stated in the category listing.",
+      "price": {
+        "min": 190,
+        "max": 190,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 4
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=2",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Mefprex-P Ds, 60 ml",
+      "brand": [
+        "Mefprex-P"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Oral suspension"
+      ],
+      "category": "Analgesic / Antipyretic (verify)",
+      "description": "Suspension listed by Apollo Pharmacy; confirm active ingredients and concentration on pack.",
+      "price": {
+        "min": 57,
+        "max": 57,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 60
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=2",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "MAGNAKOF DX SYP",
+      "brand": [
+        "Magnakof"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Syrup"
+      ],
+      "category": "Cough and cold",
+      "description": "Cough syrup listing; active ingredients and pack size require product-page verification.",
+      "price": {
+        "min": 114.5,
+        "max": 114.5,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 1
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=2",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Milixim-100 DS Syrup, 30 ml",
+      "brand": [
+        "Milixim"
+      ],
+      "strength": [
+        "Cefixime 100 mg (per listing name; verify concentration basis)"
+      ],
+      "form": [
+        "Syrup"
+      ],
+      "category": "Antibiotic / Cephalosporin",
+      "description": "Syrup marked Rx in the retailer listing; verify exact cefixime concentration and prescribed dosing.",
+      "price": {
+        "min": 76.5,
+        "max": 76.5,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 30
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=2",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx marker shown on retailer listing",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Citafirst Syrup, 100 ml",
+      "brand": [
+        "Citafirst"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Syrup"
+      ],
+      "category": "Medicine / Syrup",
+      "description": "Syrup marked Rx in the retailer listing; ingredients and indication require product-page verification.",
+      "price": {
+        "min": 103,
+        "max": 103,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 100
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=3",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx marker shown on retailer listing",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Nitroxid Sachet, 5gm",
+      "brand": [
+        "Nitroxid"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Sachet"
+      ],
+      "category": "Medicine / Powder",
+      "description": "Sachet product listed by Apollo Pharmacy; active ingredient and intended use are not specified in the listing.",
+      "price": {
+        "min": 73,
+        "max": 73,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 5
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=3",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Subhcal Gro Syrup, 200 ml",
+      "brand": [
+        "Subhcal"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Syrup"
+      ],
+      "category": "Nutritional supplement (verify)",
+      "description": "Syrup product listed by Apollo Pharmacy; verify full composition on pack.",
+      "price": {
+        "min": 199,
+        "max": 199,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 200
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=3",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Evamitra Syrup, 200 ml",
+      "brand": [
+        "Evamitra"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Syrup"
+      ],
+      "category": "Herbal / Nutritional product (verify)",
+      "description": "Syrup product listed by Apollo Pharmacy; full ingredient list is not shown in the category listing.",
+      "price": {
+        "min": 175,
+        "max": 175,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 200
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=3",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Glycohale Fb 400 Rotacaps, 10 Count",
+      "brand": [
+        "Glycohale"
+      ],
+      "strength": [
+        "400 (unit/ingredient not stated in listing)"
+      ],
+      "form": [
+        "Rotacaps"
+      ],
+      "category": "Respiratory / Inhalation medicine",
+      "description": "Rotacaps listed by Apollo Pharmacy; verify active ingredients and inhalation device compatibility.",
+      "price": {
+        "min": 628.5,
+        "max": 628.5,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=3",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Rabescope Ls, 10 Capsules",
+      "brand": [
+        "Rabescope LS"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Capsule"
+      ],
+      "category": "Gastrointestinal / Acid-reducing combination (verify)",
+      "description": "Capsule product listed by Apollo Pharmacy; exact ingredients should be checked on pack.",
+      "price": {
+        "min": 199,
+        "max": 199,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=3",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Pencimox Cv 457mg Dry Syrup, 30 ml",
+      "brand": [
+        "Pencimox CV"
+      ],
+      "strength": [
+        "457 mg (combination composition not stated in listing)"
+      ],
+      "form": [
+        "Dry syrup"
+      ],
+      "category": "Antibiotic / Penicillin combination",
+      "description": "Dry syrup marked Rx in the retailer listing; use only under a qualified prescriber's direction.",
+      "price": {
+        "min": 162,
+        "max": 162,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 30
+      },
+      "requiresPrescription": true,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=3",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "Rx marker shown on retailer listing",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Sensiclav 91.4mg Drops, 10 ml",
+      "brand": [
+        "Sensiclav"
+      ],
+      "strength": [
+        "91.4 mg (ingredient basis not stated in listing)"
+      ],
+      "form": [
+        "Oral drops"
+      ],
+      "category": "Antibiotic / Penicillin combination (verify)",
+      "description": "Oral drops listed by Apollo Pharmacy; verify exact composition and concentration before use.",
+      "price": {
+        "min": 120,
+        "max": 120,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=3",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Kaloree 1, 400 Tablets",
+      "brand": [
+        "Kaloree"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Nutritional / Specialty product (verify)",
+      "description": "Large-count tablet pack listed by Apollo Pharmacy; ingredient details are not stated in the category listing.",
+      "price": {
+        "min": 266,
+        "max": 266,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 400
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=3",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Sildoease 4 D, 10 Capsules",
+      "brand": [
+        "Sildoease"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Capsule"
+      ],
+      "category": "Urology / Medicine (verify)",
+      "description": "Capsule product listed by Apollo Pharmacy; verify active ingredients and prescription status on product page.",
+      "price": {
+        "min": 164,
+        "max": 164,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=3",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Kaloree 1, 300 Tablets",
+      "brand": [
+        "Kaloree"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Nutritional / Specialty product (verify)",
+      "description": "300-tablet pack listed by Apollo Pharmacy; ingredient details require pack verification.",
+      "price": {
+        "min": 177.5,
+        "max": 177.5,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 300
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=3",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "MRHM D3, 4 Capsules",
+      "brand": [
+        "MRHM D3"
+      ],
+      "strength": [
+        "Vitamin D3; strength not stated in listing"
+      ],
+      "form": [
+        "Capsule"
+      ],
+      "category": "Vitamin D / Supplement",
+      "description": "Vitamin D capsule product listed by Apollo Pharmacy; confirm exact IU strength on pack.",
+      "price": {
+        "min": 127,
+        "max": 127,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 4
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=3",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Lactohope, 10 Capsules",
+      "brand": [
+        "Lactohope"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Capsule"
+      ],
+      "category": "Probiotic / Digestive supplement (verify)",
+      "description": "Capsule product listed by Apollo Pharmacy; verify probiotic strains and quantity on pack.",
+      "price": {
+        "min": 142,
+        "max": 142,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=3",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Osmosafe Lemon Sachet, 10 gm",
+      "brand": [
+        "Osmosafe"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Powder sachet"
+      ],
+      "category": "Hydration / Electrolyte product",
+      "description": "Lemon-flavoured sachet listed by Apollo Pharmacy; verify ingredients and preparation instructions.",
+      "price": {
+        "min": 30,
+        "max": 30,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=3",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Itrazit 200mg, 4 Capsules",
+      "brand": [
+        "Itrazit"
+      ],
+      "strength": [
+        "Itraconazole 200 mg (name indicates strength; verify pack)"
+      ],
+      "form": [
+        "Capsule"
+      ],
+      "category": "Antifungal",
+      "description": "200 mg capsule listed by Apollo Pharmacy; use only as directed by a qualified clinician.",
+      "price": {
+        "min": 93.5,
+        "max": 93.5,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 4
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=3",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Mela-Act Forte Cream, 20 gm",
+      "brand": [
+        "Mela-Act"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Cream"
+      ],
+      "category": "Dermatology / Skin care",
+      "description": "Topical cream listed by Apollo Pharmacy; verify ingredients and usage instructions on pack.",
+      "price": {
+        "min": 459,
+        "max": 459,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 20
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=3",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Antiflone-I 200mg Capsules",
+      "brand": [
+        "Antiflone-I"
+      ],
+      "strength": [
+        "200 mg (ingredient not stated in listing)"
+      ],
+      "form": [
+        "Capsule"
+      ],
+      "category": "Medicine / Capsule",
+      "description": "200 mg capsule product listed by Apollo Pharmacy; confirm active ingredient and pack quantity.",
+      "price": {
+        "min": 214.5,
+        "max": 214.5,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 200
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=3",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "LCM M Syrup, 60 ml",
+      "brand": [
+        "LCM M"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Syrup"
+      ],
+      "category": "Medicine / Syrup",
+      "description": "Syrup listed by Apollo Pharmacy; composition is not shown in the category listing.",
+      "price": {
+        "min": 90,
+        "max": 90,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 60
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=3",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Amolax, 10 Capsules",
+      "brand": [
+        "Amolax"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Capsule"
+      ],
+      "category": "Digestive / Laxative (verify)",
+      "description": "Capsule product listed by Apollo Pharmacy; verify ingredient and indication on product page.",
+      "price": {
+        "min": 80,
+        "max": 80,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=3",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "IZ K Lotion, 50 ml",
+      "brand": [
+        "IZ K"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Lotion"
+      ],
+      "category": "Dermatology / Skin care",
+      "description": "Topical lotion listed by Apollo Pharmacy; active ingredients are not specified in the category listing.",
+      "price": {
+        "min": 224,
+        "max": 224,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 50
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=4",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "MLT Wipac C Gel, 15 gm",
+      "brand": [
+        "MLT Wipac C"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Gel"
+      ],
+      "category": "Topical / Skin care",
+      "description": "Topical gel listed by Apollo Pharmacy; verify active ingredients on product page.",
+      "price": {
+        "min": 210,
+        "max": 210,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 15
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=4",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Alkem Melbid Lotion, 5 ml",
+      "brand": [
+        "Alkem"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Lotion"
+      ],
+      "category": "Dermatology / Topical medicine",
+      "description": "Lotion product listed by Apollo Pharmacy; composition is not shown in the category listing.",
+      "price": {
+        "min": 1,
+        "max": 1,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 5
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=4",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Ultrafolin Drop, 15 ml",
+      "brand": [
+        "Ultrafolin"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Oral drops"
+      ],
+      "category": "Vitamin / Nutritional supplement (verify)",
+      "description": "Oral drops listed by Apollo Pharmacy; verify ingredient and concentration on pack.",
+      "price": {
+        "min": 82.5,
+        "max": 82.5,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 15
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=4",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Cling Drape Orthopaedic CD01, 1 Count",
+      "brand": [
+        "Cling Drape"
+      ],
+      "strength": [
+        "Not applicable"
+      ],
+      "form": [
+        "Orthopaedic support / device"
+      ],
+      "category": "Orthopaedic support",
+      "description": "Orthopaedic support product listed by Apollo Pharmacy; not a pharmaceutical medicine.",
+      "price": {
+        "min": 57,
+        "max": 57,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 1
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=4",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Dr Willmar Essentia Aurea Gold Drop, 30 ml",
+      "brand": [
+        "Dr Willmar"
+      ],
+      "strength": [
+        "Homeopathic formulation; potency not stated in listing"
+      ],
+      "form": [
+        "Oral drops"
+      ],
+      "category": "Homeopathic product",
+      "description": "Homeopathic drops listed by Apollo Pharmacy; verify potency and ingredients on product label.",
+      "price": {
+        "min": 188,
+        "max": 188,
+        "mrp": 235,
+        "currency": "INR",
+        "packSize": 30
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=4",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Baidyanath Kafkuthar Ras, 80 Tablets",
+      "brand": [
+        "Baidyanath"
+      ],
+      "strength": [
+        "Ayurvedic formulation; strength not stated in listing"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Ayurvedic / Traditional medicine",
+      "description": "Ayurvedic tablet product listed by Apollo Pharmacy; verify full ingredients and safety information.",
+      "price": {
+        "min": 140.5,
+        "max": 140.5,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 80
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=4",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Baidyanath Tarkeshwar Ras, 20 Tablets",
+      "brand": [
+        "Baidyanath"
+      ],
+      "strength": [
+        "Ayurvedic formulation; strength not stated in listing"
+      ],
+      "form": [
+        "Tablet"
+      ],
+      "category": "Ayurvedic / Traditional medicine",
+      "description": "Ayurvedic tablet product listed by Apollo Pharmacy; verify ingredients and cautions on pack.",
+      "price": {
+        "min": 118,
+        "max": 118,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 20
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=4",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Kamarest Calm and Restful Mind Roll On, 5 ml",
+      "brand": [
+        "Kamarest"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Roll-on"
+      ],
+      "category": "Aromatherapy / Personal care",
+      "description": "Roll-on product listed by Apollo Pharmacy; composition and intended use require pack verification.",
+      "price": {
+        "min": 140,
+        "max": 140,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 5
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=4",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Palmiflam, 10 Capsules",
+      "brand": [
+        "Palmiflam"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Capsule"
+      ],
+      "category": "Pain relief / Supplement (verify)",
+      "description": "Capsule product listed by Apollo Pharmacy; verify ingredients and use on product page.",
+      "price": {
+        "min": 293.5,
+        "max": 293.5,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=4",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Artirose-UV, 10 Capsules",
+      "brand": [
+        "Artirose"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Capsule"
+      ],
+      "category": "Joint care / Supplement (verify)",
+      "description": "Capsule product listed by Apollo Pharmacy; exact ingredients are not shown in the category listing.",
+      "price": {
+        "min": 31.5,
+        "max": 31.5,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 10
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=4",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Healing Hands PiloSpray Piles Treatment Spray, 35 gram",
+      "brand": [
+        "Healing Hands"
+      ],
+      "strength": [
+        "Plant-based formulation; ingredients not stated in listing"
+      ],
+      "form": [
+        "Spray"
+      ],
+      "category": "Ayurvedic / Piles care",
+      "description": "Plant-based spray listed for piles and fissure care; verify full ingredients and claims on pack.",
+      "price": {
+        "min": 250,
+        "max": 250,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 35
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=4",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Himalaya Pilex Kit (Tablet 30's + Ointment 30g)",
+      "brand": [
+        "Himalaya"
+      ],
+      "strength": [
+        "Herbal formulation; ingredient strengths not stated"
+      ],
+      "form": [
+        "Kit"
+      ],
+      "category": "Ayurvedic / Piles care",
+      "description": "Combination kit containing tablets and ointment listed by Apollo Pharmacy; check both product labels.",
+      "price": {
+        "min": 405,
+        "max": 405,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 1
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=4",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Inflam Gel, 30 gm",
+      "brand": [
+        "Inflam"
+      ],
+      "strength": [
+        "Composition not stated in listing"
+      ],
+      "form": [
+        "Gel"
+      ],
+      "category": "Pain relief / Topical",
+      "description": "Topical gel listed by Apollo Pharmacy; verify active ingredients and directions on pack.",
+      "price": {
+        "min": 102.19,
+        "max": 102.19,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 30
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=4",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Skypure Eyelid Wipes, 20 Count",
+      "brand": [
+        "Skypure"
+      ],
+      "strength": [
+        "Not applicable"
+      ],
+      "form": [
+        "Wipes"
+      ],
+      "category": "Eye care / Hygiene",
+      "description": "Eyelid cleansing wipes listed by Apollo Pharmacy; not a systemic medicine.",
+      "price": {
+        "min": 252,
+        "max": 252,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 20
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=4",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Swastik Manju Eucalyptus Oil, 50 ml",
+      "brand": [
+        "Swastik Manju"
+      ],
+      "strength": [
+        "Eucalyptus oil; concentration not stated"
+      ],
+      "form": [
+        "Oil"
+      ],
+      "category": "Aromatherapy / Essential oil",
+      "description": "Eucalyptus oil product listed by Apollo Pharmacy; follow label instructions and avoid ingestion.",
+      "price": {
+        "min": 225,
+        "max": 225,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 50
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=4",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Swastik Manju Castor Oil, 200 ml",
+      "brand": [
+        "Swastik Manju"
+      ],
+      "strength": [
+        "Castor oil; grade not stated in listing"
+      ],
+      "form": [
+        "Oil"
+      ],
+      "category": "Personal care / Oil",
+      "description": "Castor oil product listed by Apollo Pharmacy; confirm intended grade and route from pack.",
+      "price": {
+        "min": 165,
+        "max": 165,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 200
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=4",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Kai Nail Clipper Black, 1 Count",
+      "brand": [
+        "Kai"
+      ],
+      "strength": [
+        "Not applicable"
+      ],
+      "form": [
+        "Device / Tool"
+      ],
+      "category": "Personal care accessory",
+      "description": "Nail clipper listed by Apollo Pharmacy; non-medicinal personal-care item.",
+      "price": {
+        "min": 199,
+        "max": 199,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 1
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=4",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    },
+    {
+      "name": "Kai Nail Clipper File And Stopper Case, 1 Count",
+      "brand": [
+        "Kai"
+      ],
+      "strength": [
+        "Not applicable"
+      ],
+      "form": [
+        "Device / Tool"
+      ],
+      "category": "Personal care accessory",
+      "description": "Nail clipper with file and case listed by Apollo Pharmacy; non-medicinal personal-care item.",
+      "price": {
+        "min": 150,
+        "max": 150,
+        "mrp": null,
+        "currency": "INR",
+        "packSize": 1
+      },
+      "requiresPrescription": false,
+      "source": {
+        "retailer": "Apollo Pharmacy",
+        "sourceUrl": "https://www.apollopharmacy.in/OTC/OTC-category?page=4",
+        "listingChecked": "2026-11-04",
+        "prescriptionFlagBasis": "No Rx marker shown on the captured category listing; verify legal classification and product page",
+        "dataQualityNote": "Composition/strength not shown in category listing where stated; verify against product page or pack."
+      }
+    }
+  ]
+}
