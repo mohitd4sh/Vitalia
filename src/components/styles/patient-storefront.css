@@ -618,11 +618,6 @@
   font-size: 10px;
 }
 
-.patient-dashboard-toolbar .dashboard-saved-search {
-  color: var(--patient-blue);
-  font-size: 10px;
-}
-
 .patient-dashboard-grid {
   grid-template-columns: minmax(0, 1.2fr) minmax(290px, 0.9fr);
   gap: 14px;
@@ -1217,7 +1212,7 @@
 .patient-storefront-shell .patient-dashboard .patient-panel-kicker,
 .patient-storefront-shell .patient-dashboard .patient-panel-link,
 .patient-storefront-shell .patient-dashboard .patient-view-all,
-.patient-storefront-shell .patient-dashboard-toolbar .dashboard-saved-search {
+.patient-storefront-shell .patient-dashboard-toolbar {
   color: #287565;
 }
 

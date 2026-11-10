@@ -219,7 +219,6 @@ function Dashboard({ user }) {
               <option value="price">Price</option>
             </select>
           </label>
-          <Link to="/tests" className="dashboard-saved-search">All diagnostics <ArrowUpRight size={13} /></Link>
         </div>
       </div>
 

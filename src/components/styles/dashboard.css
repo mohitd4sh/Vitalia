@@ -575,7 +575,6 @@
 }
 
 .time-slot:hover:not(:disabled) {
-  color: #1d708a;
   border-color: #85b6a0;
   background: #f1f8f3;
   transform: translateY(-1px);
