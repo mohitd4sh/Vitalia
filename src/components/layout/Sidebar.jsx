@@ -22,7 +22,7 @@ import {
 import { getRoleModulePath, permissionModules, hasPermission } from "../../services/permissions.js";
 
 const patientLinks = [
-  { label: "Dashboard", path: "/dashboard", icon: LayoutDashboard },
+  { label: "Homepage", path: "/homepage", icon: LayoutDashboard },
   { label: "Lab Test", path: "/tests", icon: Search },
   { label: "Appointment", path: "/bookings", icon: CalendarDays },
   { label: "Documents", path: "/reports", icon: FileText },
@@ -127,7 +127,7 @@ function Sidebar({ open, closeSidebar, user }) {
             <NavLink
               key={path}
               to={path}
-              end={path === "/admin" || path === "/dashboard"}
+              end={path === "/admin" || path === "/homepage"}
               onClick={closeSidebar}
               className={({ isActive }) =>
                 `nav-link ${isActive ? "nav-link-active" : ""}`

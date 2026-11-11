@@ -277,9 +277,11 @@ function App() {
                       </section>
                     } />
 
-                    {/* Patient dashboard */}
+                    <Route path="/dashboard" element={<Navigate to="/homepage" replace />} />
+
+                    {/* Patient homepage */}
                     <Route
-                      path="/dashboard"
+                      path="/homepage"
                       element={
                         isCenterManager || isStaff || isCustomRole ? (
                           <Navigate to="/admin" replace />

@@ -87,6 +87,18 @@
   font-size: 12px;
 }
 
+.patient-store-search > select {
+  max-width: 112px;
+  height: 26px;
+  padding: 0 4px;
+  color: #344a40;
+  border: 0;
+  border-right: 1px solid #e6eae4;
+  outline: 0;
+  background: #fff;
+  font-size: 11px;
+}
+
 .patient-storefront-shell .patient-store-search > input:focus-visible {
   outline: none;
 }

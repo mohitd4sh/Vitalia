@@ -116,7 +116,7 @@ function UserSetup({ onProfileSaved }) {
       setSaving(true);
       const updatedUser = await saveUserProfile({ ...form, homeCollection: false });
       onProfileSaved(updatedUser);
-      navigate("/dashboard", { replace: true });
+      navigate("/homepage", { replace: true });
     } catch (saveError) {
       setError(saveError.message || "We couldn't save your profile. Please try again.");
     } finally {

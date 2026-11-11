@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import {
   ArrowRight,
   CheckCircle2,
@@ -92,7 +92,8 @@ function getProfileForm(user) {
 }
 
 export function MedicineOrder() {
-  const [query, setQuery] = useState("");
+  const [searchParams] = useSearchParams();
+  const [query, setQuery] = useState(() => searchParams.get("q") || "");
   const [medicines, setMedicines] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
@@ -523,7 +524,6 @@ export function PatientSettings({ user, onUserUpdated }) {
             {title === "Personal information" && (
               <div className="patient-account-email">
                 <span>Email address</span><strong>{user?.email}</strong>
-                <small>Email changes are managed by your account administrator.</small>
               </div>
             )}
             <div className={`patient-settings-fields patient-settings-fields-${fields.length}`}>
@@ -534,7 +534,7 @@ export function PatientSettings({ user, onUserUpdated }) {
         {error && <p className="patient-form-message patient-form-error" role="alert">{error}</p>}
         {saved && <p className="patient-form-message patient-form-success" role="status"><CheckCircle2 size={17} /> Your profile settings are saved.</p>}
         <div className="patient-settings-actions">
-          <Link className="patient-feature-button patient-feature-button-secondary" to="/dashboard">Cancel</Link>
+          <Link className="patient-feature-button patient-feature-button-secondary" to="/homepage">Cancel</Link>
           <button className="patient-feature-button" type="submit" disabled={saving || !hasChanges}>{saving ? "Saving changes…" : "Save changes"}</button>
         </div>
       </form>

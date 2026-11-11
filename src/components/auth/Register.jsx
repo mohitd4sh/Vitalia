@@ -39,7 +39,7 @@ function Register({ onRegister }) {
         password: form.password,
       });
       onRegister(user);
-      navigate(user.profileCompleted ? "/dashboard" : "/setup", { replace: true });
+      navigate(user.profileCompleted ? "/homepage" : "/setup", { replace: true });
     } catch (requestError) {
       setError(requestError.message || "Unable to create your account. Please try again.");
     } finally {

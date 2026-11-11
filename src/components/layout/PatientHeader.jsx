@@ -15,23 +15,37 @@ const profileLinks = [
   { label: "Profile settings", path: "/settings", icon: UserRound },
 ];
 
-function PatientSearchForm({ search, onSearch }) {
+function PatientSearchForm({ pathname, search, onSearch }) {
   const [query, setQuery] = useState(() => new URLSearchParams(search).get("q") || "");
+  const [searchType, setSearchType] = useState(() => {
+    if (pathname === "/centers") return "centers";
+    if (pathname === "/medicine-order") return "medicines";
+    return "tests";
+  });
 
   function submitSearch(event) {
     event.preventDefault();
-    onSearch(query.trim());
+    onSearch(query.trim(), searchType);
   }
 
   return (
     <form className="patient-store-search" onSubmit={submitSearch} role="search">
       <Search size={17} aria-hidden="true" />
+      <select
+        value={searchType}
+        onChange={(event) => setSearchType(event.target.value)}
+        aria-label="Search category"
+      >
+        <option value="tests">Tests</option>
+        <option value="centers">Centers</option>
+        <option value="medicines">Medicines</option>
+      </select>
       <input
         type="search"
         value={query}
         onChange={(event) => setQuery(event.target.value)}
-        placeholder="Search diagnostic tests..."
-        aria-label="Search diagnostic tests"
+        placeholder={`Search ${searchType === "tests" ? "diagnostic tests" : searchType}...`}
+        aria-label={`Search ${searchType === "tests" ? "diagnostic tests" : searchType}`}
       />
       <button type="submit" aria-label="Search"><Search size={17} /></button>
     </form>
@@ -127,19 +141,24 @@ function PatientHeader({ user, onLogout }) {
     }
   }
 
-  function searchTests(query) {
-    navigate(query ? `/tests?q=${encodeURIComponent(query)}` : "/tests");
+  function searchTests(query, searchType) {
+    const path = searchType === "centers"
+      ? "/centers"
+      : searchType === "medicines"
+        ? "/medicine-order"
+        : "/tests";
+    navigate(query ? `${path}?q=${encodeURIComponent(query)}` : path);
   }
 
   return (
     <header className="patient-store-header">
       <div className="patient-store-header-main">
-        <Link className="patient-store-brand" to="/dashboard" aria-label="Vitalia home">
+        <Link className="patient-store-brand" to="/homepage" aria-label="Vitalia home">
           <span className="patient-store-brand-icon"><HeartPulse size={19} /></span>
           <span>vitalia<span>.</span></span>
         </Link>
-        <PatientSearchForm key={location.search} search={location.search} onSearch={searchTests} />
-        <div className="patient-store-actions">
+        <PatientSearchForm key={`${location.pathname}${location.search}`} pathname={location.pathname} search={location.search} onSearch={searchTests} />
+          <div className="patient-store-actions">
         <div className="notification-menu-wrap" ref={notificationsRef}>
           <button
             className={`notification-trigger${notificationsOpen ? " notification-trigger-open" : ""}`}

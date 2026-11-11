@@ -5036,6 +5036,14 @@
     padding-left: 14px;
   }
 
+  .notification-panel {
+    position: fixed;
+    top: 70px;
+    right: 12px;
+    width: min(360px, calc(100vw - 24px));
+    max-height: calc(100dvh - 82px);
+  }
+
   .topbar-left,
   .topbar-actions {
     min-width: 0;

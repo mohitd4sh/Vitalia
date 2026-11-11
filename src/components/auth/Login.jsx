@@ -47,7 +47,7 @@ function Login({ onLogin }) {
       } else if (user.role === "custom") {
         navigate(getRoleHomePath(user), { replace: true });
       } else if (user.profileCompleted) {
-        navigate("/dashboard", { replace: true });
+        navigate("/homepage", { replace: true });
       } else {
         navigate("/setup", { replace: true });
       }

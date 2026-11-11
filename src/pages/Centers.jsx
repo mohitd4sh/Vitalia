@@ -22,7 +22,7 @@ function Centers() {
   const [searchParams] = useSearchParams();
   const [centers, setCenters] = useState([]);
   const [tests, setTests] = useState([]);
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState(() => searchParams.get("q") || "");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const selectedCenterId = searchParams.get("centerId") || "";

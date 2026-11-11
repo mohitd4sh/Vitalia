@@ -45,5 +45,5 @@ export function getRoleHomePath(user) {
     const module = permissionModules.find(({ key }) => hasPermission(user, key));
     return module ? getRoleModulePath(user, module.key) : "/no-access";
   }
-  return "/dashboard";
+  return "/homepage";
 }

@@ -57,7 +57,7 @@ function Footer({ user, onLogout }) {
               ? { label: module.label, path: getRoleModulePath(user, module.key), key: module.key }
               : { label: "Workspace", path: "/no-access" };
           })()
-        : { label: "Patient dashboard", path: "/dashboard" };
+        : { label: "Homepage", path: "/homepage" };
   const serviceLinks = isAdmin
     ? [
         { label: "Diagnostics", path: "/admin/tests" },
