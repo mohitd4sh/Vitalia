@@ -1709,7 +1709,7 @@
 
 .admin-toolbar-filters label {
   flex-direction: column;
-  align-items: stretch;
+  align-items: center;
 }
 
 .admin-editor-grid > label  {
