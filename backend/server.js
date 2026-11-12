@@ -22,18 +22,94 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+// MongoDB connection cache
+const cached = globalThis.vitaliaMongo || {
+  promise: null,
+};
+
+globalThis.vitaliaMongo = cached;
+
+async function connectDB() {
+  if (!process.env.MONGODB_URI) {
+    throw new Error("MONGODB_URI is missing");
+  }
+
+  if (mongoose.connection.readyState === 1) {
+    return;
+  }
+
+  if (!cached.promise) {
+    cached.promise = mongoose
+      .connect(process.env.MONGODB_URI)
+      .then(() => {
+        console.log("MongoDB connected successfully");
+      })
+      .catch((error) => {
+        cached.promise = null;
+        throw error;
+      });
+  }
+
+  await cached.promise;
+}
+
+// CORS configuration
+const allowedOrigins = (
+  process.env.CLIENT_URL || "http://localhost:5173"
+)
+  .split(",")
+  .map((origin) => origin.trim());
+
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "http://localhost:5173",
+    origin: (origin, callback) => {
+      if (!origin || allowedOrigins.includes(origin)) {
+        return callback(null, true);
+      }
+
+      return callback(new Error("Origin not allowed by CORS"));
+    },
   })
 );
 
 app.use(express.json({ limit: "20kb" }));
 
-app.get("/api/health", (req, res) => {
-  res.json({ status: "ok", message: "VITALIA API is running" });
+// Database connection middleware
+app.use(async (req, res, next) => {
+  try {
+    if (!process.env.JWT_SECRET) {
+      throw new Error("JWT_SECRET is missing");
+    }
+
+    await connectDB();
+    next();
+  } catch (error) {
+    console.error("Backend initialization failed:", error.message);
+
+    res.status(500).json({
+      status: "error",
+      message: "Backend initialization failed",
+    });
+  }
 });
 
+// Health check
+app.get("/", (req, res) => {
+  res.json({
+    status: "ok",
+    message: "VITALIA API is running",
+  });
+});
+
+app.get("/api/health", (req, res) => {
+  res.json({
+    status: "ok",
+    message: "VITALIA API is running",
+    database: "connected",
+  });
+});
+
+// API routes
 app.use("/api/auth", authRoutes);
 app.use("/api/admin", adminRoutes);
 app.use("/api/bookings", bookingRoutes);
@@ -47,26 +123,33 @@ app.use("/api/notifications", notificationRoutes);
 app.use("/api/support", supportRoutes);
 app.use("/api/medicines", medicineRoutes);
 
-async function startServer() {
-  try {
-    if (!process.env.MONGODB_URI) {
-      throw new Error("MONGODB_URI is missing from backend/.env");
-    }
+// Not found
+app.use((req, res) => {
+  res.status(404).json({
+    status: "error",
+    message: "API route not found",
+  });
+});
 
-    if (!process.env.JWT_SECRET) {
-      throw new Error("JWT_SECRET is missing from backend/.env");
-    }
+// Error handler
+app.use((error, req, res, next) => {
+  console.error("API error:", error);
 
-    await mongoose.connect(process.env.MONGODB_URI);
-    console.log("MongoDB connected successfully");
-
-    app.listen(PORT, () => {
-      console.log(`VITALIA API running at http://localhost:${PORT}`);
-    });
-  } catch (error) {
-    console.error("Server startup failed:", error.message);
-    process.exit(1);
+  if (res.headersSent) {
+    return next(error);
   }
+
+  res.status(500).json({
+    status: "error",
+    message: "Internal server error",
+  });
+});
+
+// Local development only
+if (!process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log(`VITALIA API running at http://localhost:${PORT}`);
+  });
 }
 
-startServer();
+export default app;
